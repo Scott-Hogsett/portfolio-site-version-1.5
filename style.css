@@ -1,0 +1,1002 @@
+/*----NAV-BAR----*/
+
+.nav {
+    list-style: none;
+    text-align: right;
+}
+
+.list-div {
+    padding-top: 1.250em;
+    padding-right: 1.250em;
+}
+
+.nav-bar {
+    width: 100%;
+    z-index: +1;
+    top: 0;
+    height: 3em;
+}
+
+.bar {
+    background-color: #fff; 
+    grid-template-columns: 50% 50%;
+    display: grid; 
+} 
+
+.nav-name, .bar nav {
+    margin-top: 0.7em; 
+    height: 60px;
+    float: left;
+}
+
+.nav-name {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    padding-right: 1em; 
+    text-decoration:none;
+    
+}
+
+.list-item {
+    margin-top: 2.188em;
+    display: inline;
+    font-size: 0.9em;
+}
+
+a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    padding-right: 1em; 
+    text-decoration:none;
+}
+
+a:hover, a:active {
+    transition: all 0.2s ease-in-out;
+    color: #00A45A;
+}
+
+ul li a{
+display: inline-block;
+}
+
+.nav-title {
+    float: left;
+    
+}
+
+
+/*----END OF NAV-BAR----*/
+
+
+/*----left side of grid HOME-----*/
+
+.grid-container {
+    grid-template-columns: 10% 80% 10%;
+    display: grid;
+}
+
+.home-grid-container {
+    grid-template-columns: 20% 30% 50%;
+    display: grid;
+}
+
+.about-section {
+    width: 100%;
+    max-width: 70em;
+    margin: auto;
+    padding-top: 5em;
+}
+
+.home-img {
+    height: 22em;
+    width: 22em;
+    margin-top: 8em;
+}
+
+/*----left side of grid HOME end-----*/
+
+/*----right side of HOME grid-----*/
+
+.intro-text1 {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-size: 5.5em;
+    margin-top: 1.5em;
+    color: #00A45A;
+}
+
+.intro-text2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    margin-top: -2em;
+    color: black;
+    font-weight: 400;
+}
+
+.intro-text3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+}
+
+.main-page-button {
+    margin-top: 1em;
+    background-color: #00A45A;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.2em 1em;
+    border-radius: 0.3em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.main-page-button:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+/*----right side of grid HOME end-----*/
+
+.port-intro {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: black;
+    margin-top: 1.5em;   
+}
+
+.title {
+    margin-top: 5em; 
+}
+
+.top-project-box{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.grid-title {
+    grid-template-columns: 10% 60% 30%;
+    display: grid;
+}
+
+footer {
+    background-color: aqua;
+    height: 20em;
+    margin-top: 5em;
+    position: sticky;
+}
+
+
+/*-----PORTFOLIO END----------*/
+
+
+
+
+/*----right side of grid HOME end-----*/
+
+/*----PORTFOLIO-SECTION------ 
+
+h1 {
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: black;
+    margin-top: 1.5em; 
+    
+}
+
+h2 {
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: #00A45A;
+}
+
+p {
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.port-img-top {
+    margin-top: 11em;
+}
+
+.port-img {
+    margin-top: 2.4em;
+}
+
+.port-button-top {
+   margin-top: 0.6em;
+   background-color: #00A45A;
+   border: none;
+   color: white;
+   text-align: center;
+   display: inline-block;
+   cursor: pointer;
+   padding: 0.1em 0.5em;
+   border-radius: 0.3em;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 2em;    
+}
+
+.port-button {
+   margin-top: 0.6em;
+   background-color: #00A45A;
+   border: none;
+   color: white;
+   text-align: center;
+   display: inline-block;
+   cursor: pointer;
+   padding: 0.1em 0.5em;
+   border-radius: 0.3em;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 2em;
+}
+
+.port-button:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.port-link {
+    font-size: 1em;
+    
+}
+/*
+/*-----PORTFOLIO END----------*/
+
+/*-----ABOUT START----------*/
+
+.social-media-icons {
+    display: inline-block;
+}
+
+h1 {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    
+}
+
+.contact-text-h1 {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+}
+
+.contact-text-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.about-grid-container {
+    grid-template-columns: 5% 40% 5% 50%;
+    display: grid;  
+}
+
+.gif {
+    margin-top: 5em;
+    margin-left: 5em;
+    height: 600px;
+    width: 600px;
+}
+
+.grid-item-1 {
+    margin-right: 5em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    
+}
+
+.grid-item {
+   margin-right: 5em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    margin-top: 0.4em;
+    
+}
+
+.about-grid-item {
+    margin-right: 5em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    margin-top: 0.4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.4em
+    
+}
+
+/*-----ABOUT END----------*/
+
+/*-----CONTACT START---------*/
+
+.contact-grid-container {
+    grid-template-columns: 10% 30% 5% 50%;
+    display: grid;  
+}
+
+.contact-img {
+    margin-top: 8em; 
+    height: 30em;
+}
+
+h3 {
+    margin-bottom: 0.3em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #00A45A;
+}
+
+h4 {
+    margin-bottom: 1.8em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #00A45A;
+    
+    
+    
+}
+
+.email-link {
+    padding-right: 0em;
+}
+
+.email-link :hover {
+    color: #00A45A;  
+}
+
+.cv-email {
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+
+.email-link {
+    color: #00A45A;
+    margin-bottom: 2em; 
+}
+
+.email-link:hover {
+    color: black;
+    
+}
+
+
+/*-------CONTACT END------------*/
+
+
+
+
+
+/*---------MEDIA QUERIES -----------*/
+
+/*----------SCREEN SIZE IPAD-----------*/
+
+@media (max-width: 1024px){
+
+/*----NAV-BAR----*/
+
+.nav {
+    list-style: none;
+    text-align: right;
+}
+
+.list-div {
+    padding-top: 0.5em;
+    padding-right: 1.250em;
+}
+
+.nav-bar {
+    width: 100%;
+    z-index: +1;
+    top: 0;
+    height: 3em;
+}
+
+.bar {
+    background-color: #fff; 
+    grid-template-columns: 50% 50%;
+    display: grid; 
+} 
+
+.top-logo, .bar nav {
+    margin-top: 1px;
+    height: 50px;
+    width: 30px;
+}
+
+.list-item {
+    margin-top: 2.188em;
+    display: inline;
+    font-size: 0.9em;
+}
+
+a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding-right: 1em; 
+    text-decoration:none;
+}
+
+a:hover, a:active {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    color: #00A45A;
+}
+
+ul li a{
+display: inline-block;
+}
+
+
+/*----END OF NAV-BAR----*/
+
+/*----ILLUSTRATED CHARACTER----*/
+ 
+.home-grid-container {
+    grid-template-columns: 10% 40% 50%;
+        
+    }    
+    
+.home-img {
+    height: 22em;
+    width: 22em;
+    margin-top: 8em;
+}
+    
+/*----ILLUSTRATED CHARACTER----*/
+
+/*----PORTFOLIO PAGE----*/
+
+.port-img-top {
+    margin-top: 10em;
+    height: 200px;
+    width: 400px;
+}
+    
+h2 {
+    font-size: 1.5em;
+    
+    }
+    
+p {
+    font-size: 1.1em;   
+}
+    
+.port-button {
+    margin-top: 0.8em;
+    font-size: 1.3em;
+    }
+    
+.port-button-top {
+   margin-top: 2em;
+   font-size: 1.3em;    
+}
+    
+.port-img {
+    margin-top: 1.7em;
+    height: 170px;
+    width: 400px;
+    
+    }
+
+/*----PORTFOLIO PAGE END----*/ 
+    
+/*----ABOUT PAGE----*/
+      
+.about-grid-container {
+    grid-template-columns: 2% 40% 8% 50%;
+    display: grid;  
+}
+    
+.gif {
+    margin-top: 10em;
+    margin-left: -6em;
+    height: 800px;
+    width: 800px;
+}    
+
+p2 {
+    font-size: 1.2em;    
+        
+    }
+    
+/*----ABOUT PAGE END----*/
+    
+/*----CONTACT----*/
+ 
+.contact-grid-container {
+    grid-template-columns: 0% 45% 5% 50%;
+    display: grid;  
+}    
+    
+.contact-img {
+    margin-left: 3em;
+    margin-top: 6em; 
+    height: 20em;
+}    
+  
+.contact-text-h1 {
+    font-size: 4em;
+}
+    
+h3 {
+    font-size: 1.5em;
+}
+    
+contact-img {
+    margin-left: 3em;
+   
+    }
+    
+.nav {
+    list-style: none;
+    text-align: right;
+}
+
+.list-div {
+    padding-top: 0.5em;
+    padding-right: 1.250em;
+}
+
+.nav-bar {
+    width: 100%;
+    z-index: +1;
+    top: 0;
+    height: 3em;
+}
+
+.bar {
+    background-color: #fff; 
+    grid-template-columns: 50% 50%;
+    display: grid; 
+} 
+
+.top-logo, .bar nav {
+    margin-top: 1px;
+    height: 50px;
+    width: 30px;
+}
+
+.list-item {
+    margin-top: 2.188em;
+    display: inline;
+    font-size: 0.9em;
+}
+
+a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    padding-right: 1em; 
+    text-decoration:none;
+}
+
+a:hover, a:active {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    color: #00A45A;
+}
+
+ul li a{
+display: inline-block;
+}
+
+    
+} 
+
+/*----CONTACT----*/   
+    
+@media (max-width: 375px){
+    
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.list-div {
+    padding-top: 0.5em;
+    padding-right: 0em;
+}
+
+.list-item {
+    margin-top: 2.188em;
+    display: inline;
+    font-size: 0.7em;
+}
+
+a {
+    font-size: 1.5em;
+    padding-right: 0em; 
+}
+   
+ /*---------Main content---------*/   
+    
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}   
+    
+.home-grid-container {
+    grid-template-columns: 0% 0% 100%;
+}    
+    
+.home-img {
+    display: none;
+    } 
+    
+.intro-text1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+    
+.intro-text2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+}
+    
+.title {
+    margin-top: 0.3em;
+}
+    
+.grid-item {
+        margin-right: 0px;
+        
+    }
+    
+.intro-text3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.main-page-button {
+    margin: 0 auto;
+    display: block;
+    margin-top: -2em;
+    
+}
+    
+/*--------- PORTFOLIO---------*/    
+     
+h1 {
+    font-size: 2em;  
+    margin-bottom: 1.1em;
+}
+    
+h2 {
+    font-size: 1em; 
+    margin-bottom: 0em;
+    margin-top: 2em;    
+    }    
+    
+    
+p {
+    font-size: 0.49em;
+    margin-top: 0.1em;
+    margin-bottom: 2.5em;
+}   
+
+/*---------ABOUT ME---------*/    
+  
+.about-grid-container {
+    grid-template-columns: 0% 0% 5% 95%;
+    display: grid;          
+}   
+    
+.gif {
+    display: none;    
+    }
+    
+.grid-item-1 {
+    margin-right: 0em;       
+    }    
+    
+p2 {
+    font-size: 1em;
+    line-height: 1.5;    
+}  
+    
+h1 {
+    font-size: 2em;
+    margin-bottom: 0em;
+    margin-top: 0.3em;    
+}  
+    
+    .social-media-icon {
+        height: 5em;
+        width: 5em;
+        align-content: center;
+    }
+    
+    
+/*---------CONTACT---------*/  
+    
+.contact-grid-container {
+    grid-template-columns: 0% 0% 5% 95%;
+    display: grid;
+}
+    
+.contact-text-h1 {
+    font-size: 3.3em;    
+    
+    }
+    
+.contact-text-h2 {
+    font-size: 1.5em;
+} 
+    
+.contact-img {
+    display: none;    
+}
+    
+h3 {
+    font-size: 1.1em;
+}
+    
+a {
+    margin-left: 0.3em;
+    padding-right: 0.2em;
+        
+    }  
+}
+
+@media (max-width: 1265px){
+    
+a {
+    font-size: 1.3em;
+}  
+    
+.contact-img {
+    height: 25em;
+}
+    
+}
+
+@media (max-width: 1047px){
+    
+a {
+    font-size: 1em;
+    padding-right: 1em; 
+}
+    
+p2 {
+    font-size: 1em;
+}    
+
+}
+
+@media (max-width: 835px){
+    
+a {
+    font-size: 1.5em;
+    padding-right: 1em; 
+} 
+    
+.home-img {
+    height: 18em;
+    width: 18em;
+    margin-top: 8em;
+}
+    
+.nav-name {
+    display: none;
+}
+    
+.nav {
+    list-style: none;
+    text-align: center;
+}
+    
+.bar {
+    background-color: #fff;
+    grid-template-columns: 100%;
+    display: grid;
+}
+    
+.contact-text-h2 {
+    font-size: 1.3em;
+}    
+    
+h3 {
+    font-size: 1em;
+}
+
+a {
+    font-size: 1.5em;
+    padding-right: 1em;
+}
+    
+.social-media-icons {
+    padding-right: 0.4em    
+        
+    }
+
+.social-media-icon {
+    height: 2.3em;
+    width: 2.3em;
+        
+}
+    
+.contact-img {
+    height: 22em;
+}
+    
+.gif { 
+    display: none;    
+}
+    
+p2 {
+    font-size: 1em;
+}
+    
+.about-grid-container {
+    grid-template-columns: 10% 90%;
+    display: grid
+
+}
+
+
+@media (max-width: 690px){
+    
+a {
+    font-size: 1.5em;
+}
+
+.home-img {
+    height: 15em;
+    width: 15em;
+    margin-top: 4em;
+}
+    
+.intro-text1 {
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.port-intro {
+    font-size: 1.9em;
+    margin-top: 1.5em;
+}
+    
+.intro-text2 {
+    font-size: 1em;
+    margin-top: -2em;
+}
+    
+.contact-text-h2 {
+    font-size: 1em;
+} 
+    
+.contact-text-h1 {
+    font-size: 3em;
+} 
+    
+.contact-img {
+    height: 18em;
+    margin-top: 5em;
+}
+
+.social-media-icon {
+    height: 2em;
+    width: 2em;
+        
+}
+    
+}
+
+@media (max-width: 630px){
+    
+a {
+    font-size: 1em;
+}
+    
+.home-img {
+    height: 12em;
+    width: 12em;
+    margin-top: 4em;
+}
+    
+.intro-text1 {
+    font-size: 2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+    
+.port-intro {
+    font-size: 1.3em;
+    margin-top: 1.5em;
+}
+
+.contact-img {
+    height: 16em;
+    margin-top: 5em;
+}
+     
+    
+}
+
+@media (max-width: 445px){
+    
+ a {
+    font-size: 0.8em;
+}
+    
+.home-img {
+    height: 10em;
+    width: 10em;
+    margin-top: 1em;
+}
+    
+.intro-text1 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+    
+.port-intro {
+    font-size: 1.2em;
+    margin-top: 1em;
+}   
+    
+.intro-text2 {
+    font-size: 0.8em;
+    margin-top: -2em;
+}
+    
+.contact-img {
+    display: none;
+}
+    
+.contact-grid-container {
+    grid-template-columns: 10% 100%;
+    display: grid;
+}
+    
+.contact-text-h1 {
+    font-size: 3.5em;
+    margin-top: 0em;
+}
+    
+h3 {
+    font-size: 2em;
+}
+    
+.social-media-icon {
+    height: 5em;
+    width: 5em;
+    padding: 0.3em;
+}
+    
+.about-grid-container {
+    grid-template-columns: 5% 100%;
+    display: grid;
+}
+    
+.gif { 
+    display: none;    
+}
+    
+p2 {
+    font-size: 1em;
+}    
+
+}
+
+/*---------MEDIA QUERIES END---------*/
