@@ -266,18 +266,6 @@ h1 {
     
 }
 
-.contact-text-h1 {
-    font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 600;
-    font-size: 5em;
-}
-
-.contact-text-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 2em;
-}
-
 .about-grid-container {
     grid-template-columns: 5% 40% 5% 50%;
     display: grid;  
@@ -320,6 +308,20 @@ h1 {
 /*-----ABOUT END----------*/
 
 /*-----CONTACT START---------*/
+
+
+.contact-text-h1 {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    margin-top: 1em;
+}
+
+.contact-text-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
 
 .contact-grid-container {
     grid-template-columns: 10% 30% 5% 50%;
@@ -373,8 +375,15 @@ h4 {
     
 }
 
-
 /*-------CONTACT END------------*/
+
+
+
+
+
+
+
+
 
 
 
